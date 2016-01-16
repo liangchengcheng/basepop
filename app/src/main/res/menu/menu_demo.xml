@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".DemoActivity">
+    <item
+        android:id="@+id/id_normal_popup"
+        android:title="normal popup"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/id_slide_from_bottom_popup"
+        android:title="slide from bottom popup"
+        android:orderInCategory="101"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/id_comment_popup"
+        android:title="comment_popup"
+        android:orderInCategory="102"
+        app:showAsAction="never"/>
+</menu>
